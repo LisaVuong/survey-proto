@@ -54,6 +54,7 @@
 .content {
   width: 100%;
   max-width: 300px;
+  overflow: hidden;
   margin: auto; }
 
 ul {
@@ -77,6 +78,7 @@ ul.card-stack {
   height: 100%;
   top: 0;
   left: 0;
+  -webkit-transform: scale(1, 1);
   transform: scale(1, 1);
   -webkit-transition: 1s;
   -moz-transition: 1s;
