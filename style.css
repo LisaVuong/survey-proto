@@ -34,7 +34,7 @@ ul {
 
 ul.card-stack {
   width: 200px;
-  height: 220px;
+  height: 260px;
   margin: 50px auto 10px;
   position: relative; }
 
@@ -80,7 +80,9 @@ ul.card-stack {
 
 .card-header {
   width: 100%;
-  height: 65px; }
+  height: 65px; 
+  background: url('img/food-header.png');
+}
 
 .dynamic-color:nth-child(1n + 0) .card-header {
   background: #54c4c6; }
@@ -96,30 +98,41 @@ ul.card-stack {
 .logo {
   height: 45px;
   width: 45px;
-  background: white;
+  background: #fff url('img/starbucks-logo.png') no-repeat center;
+  background-size: 35px;
   border: 1px solid #c5c5c5;
   border-radius: 3px;
   margin: auto;
-  margin-top: -20px; }
+  margin-top: -20px; 
+ 
+  }
 
 .company-name {
   text-align: center;
   font-size: .5em;
   margin-top: 5px;
-  color: #c5c5c5; }
+  color: #c5c5c5; 
+  font-family: 'Gotham-Book';
+    }
 
 .question {
   font-size: 1em;
   text-align: center;
   font-family: 'Helvetica', 'san-serif';
-  margin-top: 20px;
+  margin-top: 35px;
   padding-left: 10px;
-  padding-right: 10px; }
+  padding-right: 10px; 
+  line-height: 1.3;
+  font-family: 'Gotham-Book';
+  }
 
 .answer-container {
   width: 100%;
   height: 30%;
+  margin-top: 30px;
   position: relative;
+  font-family: 'Gotham-Medium';
+  text-transform: uppercase;
   /* padding: 1em;*/ }
   .answer-container .button-set {
     position: absolute;
