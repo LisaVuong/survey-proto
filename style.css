@@ -183,7 +183,7 @@ ul.card-stack {
     transform: scale(0.75);
     padding: 0 2.5%;
     opacity: 0;
-    -webkit-transition: opacity 1s, transform .7s;
+    -webkit-transition: opacity 1s, -webkit-transform .7s;
     transition: opacity 1s, transform .7s;
     /*list-style: none;*/ }
     .answer-container .button-set.active {
