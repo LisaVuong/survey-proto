@@ -1,3 +1,19 @@
+@font-face {
+  font-family: 'Gotham-Book';
+  src: url('fonts/Gotham-Book.eot');
+  src: url('fonts/Gotham-Book.woff');
+  src: url('fonts/Gotham-Book.ttf');
+  src: url('fonts/Gotham-Book.svg');
+}
+
+@font-face {
+  font-family: 'Gotham-Medium';
+  src: url('fonts/Gotham-Medium.eot');
+  src: url('fonts/Gotham-Medium.woff');
+  src: url('fonts/Gotham-Medium.ttf');
+  src: url('fonts/Gotham-Medium.svg');
+}
+
 .green-bg {
   background-color: #37C99E; }
 
