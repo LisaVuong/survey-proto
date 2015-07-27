@@ -10,8 +10,7 @@
 @font-face {
   font-family: 'Gotham-Medium';
   src: url('fonts/Gotham-Medium.eot');
-  src: local('Gotham-Medium'),
-    url('fonts/Gotham-Medium.woff') format('woff'),
+  src:  url('fonts/Gotham-Medium.woff') format('woff'),
     url('fonts/Gotham-Medium.ttf') ('truetype'),
     url('fonts/Gotham-Medium.svg') format('svg');
 }
@@ -85,13 +84,13 @@ ul.card-stack {
   top: 0;
   left: 0;
   border-radius: 3px;
-  -webkit-transform: scale(.7, .7);
-  transform: scale(.7, .7);
-  -webkit-transition: .7s;
-  -moz-transition: .7s;
-  -ms-transition: .7s;
-  -o-transition: .7s;
-  transition: .7s;
+  -webkit-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
   background: white;
   position: absolute;
   margin: auto;
@@ -157,7 +156,7 @@ ul.card-stack {
 }
 
 .dynamic-color:nth-child(6n + 0) .card-header {
-  background: #37C99E url('img/food-pattern.png') no-repeat center; 
+  background: #37C99E url('img/food-header.png') no-repeat center; 
   background-size: 200px;
 }
 
@@ -191,18 +190,33 @@ ul.card-stack {
   font-family: 'Gotham-Book', sans-serif;
   }
 
+
+.thank-you{
+  background: #fff url('img/thanks.png') top center no-repeat;
+  background-size: 130px;
+}
+
 a{
   font-family: 'Gotham-Medium', sans-serif;
   text-transform: uppercase;
   color: #ab64cc;
   text-decoration: none;
   text-align: center;
-  font-size: .7em;
+  font-size: .8em;
+  padding-bottom: 10px;
 }
 
 .links{
   text-align: center;
-  margin-top: 40px;
+  margin-top: 190px;
+}
+
+.answermore{
+  background-color: #ab64cc;
+  width: 100%;
+  padding: 10px 10px;
+  color: #fff;
+  border-radius: 40px;
 }
 
 .answer-container {
