@@ -12,13 +12,11 @@ $(document).ready(function(){
     
      $('.button-set-'+i).addClass('removed');
     $('.button-set-'+ (i+1)).addClass('active');
-    $('.card-'+ (i+2)).addClass('back-2');
-    
-    
+    $('.card-'+ (i+2)).addClass('back-2'); 
     
     i++;
     
-    /*}*/
+   /*}*/
   })
   $('.yellow-bg').click(function(){
       $(this).addClass("yellow-click")
