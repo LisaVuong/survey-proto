@@ -157,35 +157,35 @@ ul.card-stack {
 }
 
 .dynamic-color:nth-child(2n + 0) .card-header {
-  background: #ab64cc url('img/food-header.png') no-repeat center; 
-  background-size: 200px;
-}
-.dynamic-color:nth-child(3n + 0) .card-header {
   background: #37C99E url('img/food-header.png') no-repeat center; 
   background-size: 200px;
 }
-.dynamic-color:nth-child(4n + 0) .card-header {
+.dynamic-color:nth-child(3n + 0) .card-header {
   background: #e55c55 url('img/food-header.png') no-repeat center; 
+  background-size: 200px;
+}
+.dynamic-color:nth-child(4n + 0) .card-header {
+  background: #54c4c6 url('img/food-header.png') no-repeat center; 
   background-size: 200px; 
 }
 .dynamic-color:nth-child(5n + 0) .card-header {
-  background: #54c4c6 url('img/food-header.png') no-repeat center; 
+  background: #f4d74a url('img/food-header.png') no-repeat center;  
   background-size: 200px;
 }
 
 .dynamic-color:nth-child(6n + 0) .card-header {
-  background: #f4d74a url('img/food-header.png') no-repeat center; 
-  background-size: 200px;
-}
-
-.dynamic-color:nth-child(7n + 0) .card-header {
   background: #ab64cc url('img/food-header.png') no-repeat center; 
   background-size: 200px;
 }
 
-.dynamic-color:nth-child(8n + 0) .card-header {
+.dynamic-color:nth-child(7n + 0) .card-header {
   background: #37C99E url('img/food-header.png') no-repeat center; 
   background-size: 200px;
+}
+
+/*.dynamic-color:nth-child(8n + 0) .card-header {
+  background: #37C99E url('img/food-header.png') no-repeat center; 
+  background-size: 200px;*/
 }
 
 .logo {
