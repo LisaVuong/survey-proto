@@ -9,8 +9,11 @@ $(document).ready(function(){
     $('.card-'+ (i+3)).addClass('back-3');
     $('.card-'+ (i+4)).addClass('back-4');
     $('.card-'+ (i+5)).addClass('back-5');
+     $('.card-'+ (i+6)).addClass('back-6');
+    $('.card-'+ (i+7)).addClass('back-7');
+    $('.card-'+ (i+8)).addClass('back-8');
     
-     $('.button-set-'+i).addClass('removed');
+    $('.button-set-'+i).addClass('removed');
     $('.button-set-'+ (i+1)).addClass('active');
     $('.card-'+ (i+2)).addClass('back-2'); 
     
