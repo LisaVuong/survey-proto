@@ -185,8 +185,8 @@ ul.card-stack {
 
 /*.dynamic-color:nth-child(8n + 0) .card-header {
   background: #37C99E url('img/food-header.png') no-repeat center; 
-  background-size: 200px;*/
-}
+  background-size: 200px;}*/
+
 
 .logo {
   height: 45px;
@@ -197,6 +197,7 @@ ul.card-stack {
   border-radius: 3px;
   margin: auto;
   margin-top: -20px; 
+  z-index: 10;
  
   }
 
