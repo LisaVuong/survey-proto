@@ -58,8 +58,8 @@
   height: 420px;
   overflow: hidden;
   margin: 0 0 auto; 
-  background-color: #f4f4f4;
-  background-size: 100px;
+  background: url('img/starbucks-store-gray.png') center no-repeat;
+  background-size: 235px;
 }
 
 ul {
@@ -74,7 +74,7 @@ ul {
 ul.card-stack {
   max-width: 200px;
   height: 260px;
-  margin: 35px auto 10px;
+  margin: 50px auto 10px;
   position: relative; }
 
 .card {
@@ -99,6 +99,16 @@ ul.card-stack {
   /*  &:hover{
       left: -20px;
     }*/ }
+     .card.back-8 {
+    -webkit-transform: scale(0.65, 0.65);
+    transform: scale(0.65, 0.65);
+    top: -35%; }
+
+    .card.back-7 {
+    -webkit-transform: scale(0.7, 7.);
+    transform: scale(0.7, 0.7);
+    top: -30%; }
+
   .card.back-6 {
     -webkit-transform: scale(0.75, 0.75);
     transform: scale(0.75, 0.75);
@@ -139,23 +149,33 @@ ul.card-stack {
 }
 
 .dynamic-color:nth-child(2n + 0) .card-header {
-  background: #e55c55 url('img/food-header.png') no-repeat center; 
+  background: #ab64cc url('img/food-header.png') no-repeat center; 
   background-size: 200px;
 }
 .dynamic-color:nth-child(3n + 0) .card-header {
-  background: #54c4c6 url('img/food-header.png') no-repeat center; 
+  background: #37C99E url('img/food-header.png') no-repeat center; 
   background-size: 200px;
 }
 .dynamic-color:nth-child(4n + 0) .card-header {
-  background: #f4d74a url('img/food-header.png') no-repeat center; 
+  background: #e55c55 url('img/food-header.png') no-repeat center; 
   background-size: 200px; 
 }
 .dynamic-color:nth-child(5n + 0) .card-header {
-  background: #ab64cc url('img/food-header.png') no-repeat center; 
+  background: #54c4c6 url('img/food-header.png') no-repeat center; 
   background-size: 200px;
 }
 
 .dynamic-color:nth-child(6n + 0) .card-header {
+  background: #f4d74a url('img/food-header.png') no-repeat center; 
+  background-size: 200px;
+}
+
+.dynamic-color:nth-child(7n + 0) .card-header {
+  background: #ab64cc url('img/food-header.png') no-repeat center; 
+  background-size: 200px;
+}
+
+.dynamic-color:nth-child(8n + 0) .card-header {
   background: #37C99E url('img/food-header.png') no-repeat center; 
   background-size: 200px;
 }
@@ -203,12 +223,12 @@ a{
   text-decoration: none;
   text-align: center;
   font-size: .8em;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .links{
   text-align: center;
-  margin-top: 190px;
+  margin-top: 180px;
 }
 
 .answermore{
@@ -222,7 +242,7 @@ a{
 .answer-container {
   width: 100%;
   height: 30%;
-  margin-top: 30px;
+  margin-top: 20px;
   position: relative;
   font-family: 'Gotham-Medium', sans-serif;
   text-transform: uppercase;
