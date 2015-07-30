@@ -248,6 +248,14 @@ a{
   border-radius: 40px;
 }
 
+.progress-number{
+  font-family: "Gotham-Book";
+  color: #c5c5c5;
+  font-size: 10px;
+  margin-left: 43%;
+  margin-top: 30px;
+}
+
 .answer-container {
   width: 100%;
   height: 30%;
